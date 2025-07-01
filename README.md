@@ -102,4 +102,4 @@ More examples in [`ml_usage_guide.md`](ml_usage_guide.md)
 
 ## 📜 License
 
-This project is open-sourced for educational use. Feel free to use, modify, and build on it.
+This project is licensed under the MIT License – see the LICENSE file for details.
