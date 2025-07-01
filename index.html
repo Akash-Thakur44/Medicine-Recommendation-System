@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-Enhanced Pharmaceutical Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>ML-Enhanced Pharmaceutical Recommendation System</h1>
+            <p class="subtitle">Project Demonstrating Machine Learning Skills by Akash Thakur</p>
+            <div class="ml-badges">
+                <span class="badge">TF-IDF + Cosine Similarity</span>
+                <span class="badge">K-Means Clustering</span>
+                <span class="badge">K-Nearest Neighbors</span>
+                <span class="badge">Hybrid ML Systems</span>
+            </div>
+        </header>
+
+        <!-- Main Search Section -->
+        <section class="search-section card">
+            <div class="search-header">
+                <h2>Intelligent Medicine Search</h2>
+                <p>Enter symptoms or medicine names to get ML-powered recommendations</p>
+            </div>
+            
+            <div class="search-form">
+                <div class="search-input-group">
+                    <input type="text" 
+                           id="search-input" 
+                           class="form-control search-input" 
+                           placeholder="Enter symptoms (e.g., 'fever headache pain') or medicine name...">
+                    <button id="search-btn" class="btn btn--primary btn--lg">
+                        Get ML Recommendations
+                    </button>
+                </div>
+                
+                <!-- Filters -->
+                <div class="filters-row">
+                    <div class="filter-group">
+                        <label for="price-range">Max Price: ₹<span id="price-value">450</span></label>
+                        <input type="range" 
+                               id="price-range" 
+                               class="range-slider" 
+                               min="25" 
+                               max="450" 
+                               value="450">
+                    </div>
+                    <div class="filter-group">
+                        <label for="rating-filter">Minimum Rating</label>
+                        <select id="rating-filter" class="form-control">
+                            <option value="0">All Ratings</option>
+                            <option value="3.5">3.5+ Stars</option>
+                            <option value="4.0">4.0+ Stars</option>
+                            <option value="4.5">4.5+ Stars</option>
+                            <option value="5.0">5.0 Stars</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sample Searches -->
+        <section class="samples-section card">
+            <h3>Try These Sample Searches</h3>
+            <div class="sample-buttons">
+                <button class="btn btn--outline sample-btn" data-search="fever headache pain">fever headache pain</button>
+                <button class="btn btn--outline sample-btn" data-search="bacterial infection respiratory">bacterial infection respiratory</button>
+                <button class="btn btn--outline sample-btn" data-search="allergies seasonal rhinitis">allergies seasonal rhinitis</button>
+                <button class="btn btn--outline sample-btn" data-search="high blood pressure">high blood pressure</button>
+                <button class="btn btn--outline sample-btn" data-search="acid reflux stomach">acid reflux stomach</button>
+            </div>
+        </section>
+
+        <!-- ML Performance Chart -->
+        <section class="ml-performance card">
+            <h3>ML Algorithm Performance</h3>
+            <div class="chart-container">
+                <img src="https://pplx-res.cloudinary.com/image/upload/v1750751833/pplx_code_interpreter/0b34eeb4_y7gc2k.jpg" 
+                     alt="ML Algorithm Performance Chart" 
+                     class="performance-chart">
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section" id="results-section" style="display: none;">
+            <div class="results-header">
+                <h2>ML Recommendations</h2>
+                <div class="ml-info">
+                    <div class="ml-method">
+                        <span class="label">Algorithm Used:</span>
+                        <span id="ml-algorithm" class="algorithm-name"></span>
+                    </div>
+                    <div class="predicted-category">
+                        <span class="label">Predicted Category:</span>
+                        <span id="predicted-category" class="category-name"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="results-count">
+                <span id="results-count">0 results found</span>
+            </div>
+            
+            <div class="medicine-grid" id="medicine-grid">
+                <!-- Medicine cards will be populated here -->
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div class="loading-overlay" id="loading-overlay" style="display: none;">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <h3>Processing with Machine Learning...</h3>
+                <p>Analyzing symptoms and finding optimal recommendations</p>
+                <div class="loading-steps">
+                    <div class="step active">🔍 Preprocessing input data</div>
+                    <div class="step">🤖 Running ML algorithms</div>
+                    <div class="step">📊 Calculating confidence scores</div>
+                    <div class="step">✅ Ranking recommendations</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2025 ML Pharmaceutical Recommendation System | Student Project</p>
+            <p>Demonstrating: Content-based filtering, K-means clustering, Classification algorithms, Hybrid systems</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

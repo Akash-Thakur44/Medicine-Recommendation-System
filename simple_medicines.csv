@@ -1,0 +1,32 @@
+name,category,indication,price,manufacturer,rating
+Paracetamol,Analgesic,"Fever, Headache, Body pain",25,Sun Pharma,4.2
+Ibuprofen,Analgesic,"Pain, Inflammation, Fever",35,Cipla,4.1
+Aspirin,Analgesic,"Pain, Heart attack prevention",20,Bayer,4.0
+Amoxicillin,Antibiotic,"Bacterial infections, Pneumonia",85,Dr Reddy's,4.3
+Azithromycin,Antibiotic,"Respiratory infections, Skin infections",120,Lupin,4.4
+Ciprofloxacin,Antibiotic,"UTI, Diarrhea, Skin infections",95,Ranbaxy,4.2
+Omeprazole,Antacid,"Acidity, Heartburn, GERD",45,Sun Pharma,4.5
+Ranitidine,Antacid,"Stomach ulcers, Acidity",30,Cipla,4.1
+Domperidone,Anti-nausea,"Nausea, Vomiting, Bloating",40,Torrent,4.0
+Cetirizine,Antihistamine,"Allergy, Cold, Runny nose",18,Dr Reddy's,4.3
+Loratadine,Antihistamine,"Seasonal allergies, Itching",22,Lupin,4.2
+Phenylephrine,Decongestant,"Nasal congestion, Cold",28,Cipla,3.9
+Amlodipine,Antihypertensive,"High blood pressure, Chest pain",65,Sun Pharma,4.4
+Atenolol,Antihypertensive,"High BP, Heart problems",55,Ranbaxy,4.1
+Lisinopril,Antihypertensive,"High blood pressure, Heart failure",70,Dr Reddy's,4.3
+Metformin,Antidiabetic,"Type 2 diabetes, Blood sugar",80,Cipla,4.6
+Glimepiride,Antidiabetic,"Diabetes, High blood sugar",95,Sun Pharma,4.2
+Insulin,Antidiabetic,"Diabetes, Blood sugar control",450,Novo Nordisk,4.7
+Salbutamol,Bronchodilator,"Asthma, Breathing problems",85,Cipla,4.5
+Theophylline,Bronchodilator,"Asthma, COPD, Wheezing",75,Lupin,4.1
+Clotrimazole,Antifungal,"Fungal infections, Skin rash",55,Torrent,4.2
+Hydrocortisone,Anti-inflammatory,"Skin inflammation, Eczema",60,Dr Reddy's,4.0
+Vitamin D3,Vitamin,"Bone health, Vitamin deficiency",35,Sun Pharma,4.4
+Vitamin B12,Vitamin,"Anemia, Energy, Nerve health",40,Cipla,4.3
+Calcium,Supplement,"Bone strength, Osteoporosis",50,Ranbaxy,4.1
+Tobramycin,Antibiotic Eye Drop,"Eye infections, Conjunctivitis",90,Lupin,4.3
+Melatonin,Sleep Aid,"Insomnia, Sleep disorders",45,Torrent,4.2
+Diazepam,Anxiolytic,"Anxiety, Muscle spasms",35,Sun Pharma,3.8
+Paracetamol + Caffeine,Analgesic Combo,"Headache, Migraine",30,Cipla,4.1
+Multivitamin,Supplement,"General health, Weakness",65,Dr Reddy's,4.0
+Iron Tablet,Supplement,"Anemia, Iron deficiency",25,Ranbaxy,4.2
