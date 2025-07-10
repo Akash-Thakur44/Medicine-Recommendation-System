@@ -1,5 +1,4 @@
 # Simple Medicine Recommendation System
-# A basic implementation that could be built in a week
 
 import pandas as pd
 import re
